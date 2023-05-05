@@ -1,3 +1,19 @@
+:root {
+    --dark-purple:#151542;
+    --med-purple:#252C69;
+    --light-purple:#44427D;
+    
+}
+
+
+
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif
     
