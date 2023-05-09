@@ -11,32 +11,56 @@
 html {
     box-sizing: border-box;
     font-size: 100%;
+    
 }
 
 
 * {
+    margin: 0%;
+    padding: 0%;
     
+
     
     
 
 }
 
 body {
-    
+    color: aliceblue;
 }
 
 header {
     display:flex;
+    background-color: #84aeac;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100px;
+    background-image: 
+    
+
+}
+
+h1 {
+    display:flex;
+    margin:0%;
 
 }
 
 
-.leahanderson {
+
+.name {
+    
+    
+    
 
 }
 
 nav {
-    justify-content: right;
+    
+    
+    
+      
+    
 }
 
 .navlist {
@@ -44,15 +68,51 @@ nav {
     
     
     
+    
 
+}
+
+.navlist ul {
+    
 }
 
 .navlist li {
     list-style-type: none;
+    display: inline;
+    
 
 
 }
 
+main {
+    display: block;
+    height: 700px;
+
+}
+
+
+#aboutme{
+    background-color: #405452;
+    height: 50px;
+
+
+}
+
+#work{
+    background-color: #405452;
+    height: 650px;
+    
+
+}
+
+
+
+
+footer {
+    background-color: #213E3C;
+    
+    
+}
 
 
 
