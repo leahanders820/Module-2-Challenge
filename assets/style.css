@@ -1,6 +1,8 @@
 :root {
-    
-    
+    --grey:#545454;
+    --dark-green:#213E3C;
+    --green:#405452;
+
 }
 
 
@@ -34,7 +36,5 @@ body {
 
 }
 
-:root {
-    testtest
-}
+
 
