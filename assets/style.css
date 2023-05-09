@@ -17,27 +17,39 @@ html {
 * {
     
     
-
-}
-
-header {
+    
 
 }
 
 body {
+    
+}
+
+header {
+    display:flex;
 
 }
+
 
 .leahanderson {
 
 }
 
+nav {
+    justify-content: right;
+}
+
 .navlist {
+    
+    
+    
+    
 
 }
 
 .navlist li {
     list-style-type: none;
+
 
 }
 
