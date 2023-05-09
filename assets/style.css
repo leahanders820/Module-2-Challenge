@@ -24,6 +24,10 @@ header {
 
 }
 
+body {
+
+}
+
 .leahanderson {
 
 }
@@ -32,9 +36,13 @@ header {
 
 }
 
-body {
+.navlist li {
+    list-style-type: none;
 
 }
+
+
+
 
 
 
