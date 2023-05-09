@@ -91,6 +91,12 @@ main {
 }
 
 
+
+
+
+    
+
+
 #aboutme{
     background-color: #405452;
     height: 50px;
@@ -102,7 +108,20 @@ main {
     background-color: #405452;
     height: 650px;
     
+    
 
+}
+
+#work div {
+    
+}
+
+.content {
+    background-color: rgb(163, 115, 167);
+    height: 150px;
+    width: 200px;
+    display:flex;
+    
 }
 
 
