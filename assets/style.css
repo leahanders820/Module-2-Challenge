@@ -118,38 +118,43 @@ main {
 
 .container{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    justify-content: space-between;
-    
-    
-
-
-}
-
-#bigbox {
-    background-color: aliceblue;
-    height: 200px;
-    width:300px;
+    justify-content: space-around;
+    flex-wrap: wrap;
     
 
 }
 
-.contentbox {
+
+
+.box {
     background-color: rgb(169, 109, 180);
-    height: 200px;
-    width: 200px;
-    
+    height: 225px;
+    margin-right: 25px;
+    margin-left:25px;
+    margin-top: 50px;
+    flex:30%;
+      
 }
+
 
 
 footer {
     background-color: #213E3C;
+    display:flex;
     
     
 }
 
+@media screen and (max-width: 800px) {
+    .box {flex: 20%;}
+    .container {flex-wrap: wrap;}
+    .box {background-color: aqua;}
+    
+    
+    
 
+}
 
 
 
