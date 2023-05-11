@@ -99,7 +99,7 @@ main {
     flex:2;
   
     width: 100%;
-    background-color: red;
+    background-color: rgb(162, 120, 120);
 }
 
 
@@ -112,6 +112,7 @@ main {
 #aboutme{
     background-color: #405452;
     height: 50px;
+    margin-top: 25px;
 
 
 }
@@ -175,10 +176,11 @@ main {
 
 footer {
     display:flex;
-    align-self: flex-end;
-    background-color: brown;
+    /* align-self: flex-end; */
+    background-color: rgb(91, 73, 95);
     padding:35px;
     color: #213E3C;   
+    
 }
 
 footer ul {
