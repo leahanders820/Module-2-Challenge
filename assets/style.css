@@ -32,7 +32,6 @@ body {
     background-color: #834c9f;
     flex-direction: column;
     justify-content: flex-end;
-    
     text-align: center;
 }
 
@@ -82,11 +81,13 @@ nav {
 
 .navlist ul {
     
+    
 }
 
 .navlist li {
     list-style-type: none;
     display: inline;
+    
     
 
 
@@ -97,7 +98,6 @@ main {
     display: flex; 
     flex-direction: column;
     flex:2;
-  
     width: 100%;
     background-color: rgb(162, 120, 120);
 }
@@ -120,6 +120,7 @@ main {
 #work{
     background-color: #405452;
     height: 650px;
+    
     
     
 
@@ -176,17 +177,24 @@ main {
 
 footer {
     display:flex;
-    /* align-self: flex-end; */
-    background-color: rgb(91, 73, 95);
-    padding:35px;
+    align-self: flex-end;
+    background-color: rgb(221, 202, 225);
+    padding:0px;
     color: #213E3C;   
+    position: absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height: 100px;
     
+      
 }
 
-footer ul {
-    display: inline;
-    list-style-type:none;
+#contact {
+    padding: 20px;
 }
+
+
 
 @media screen and (max-width: 1000px) {
     .box {flex: 20%;}
