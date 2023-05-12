@@ -111,13 +111,18 @@ main {
 
 #aboutme{
     background-color: #405452;
-    height: 50px;
+    height: 100px;
     margin-top: 25px;
-
-
+    margin-bottom: 25px;
+    overflow-wrap: break-word;
+    
+    
+    
 }
 
 #aboutme p {
+    
+    
     
 }
 
