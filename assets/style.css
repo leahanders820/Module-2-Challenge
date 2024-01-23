@@ -1,5 +1,5 @@
 html {
-  background-color: #0A1647;
+  background-color: #362023;
   scroll-behavior: smooth;
 }
 
@@ -7,13 +7,15 @@ html {
 
 
 body {
-    font-family: 'Ysabeau SC', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
     margin: 0;
   
 }
 
+
+
 section {
-  background-color: #0A1647;
+  background-color: #362023;
   color: white;
   height: 100vh;
   
@@ -21,22 +23,18 @@ section {
 } 
 
 .hero {
-  background: linear-gradient(360deg, hsla(228, 75%, 16%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
-  /* background-color: #0A1647; */
-  height: 100vh;
-  color: white;
-  font-size: 40px;
-  /*border: ridge 20px #66A2BD;*/
+
+
 }
 
 .name {
-  font-family: 'Halo', sans-serif;
-  
+  font-style: italic;
+  font-size: 100px;
 
 }
 
 footer {
-  background-color: #0A1647;
+  background-color: #362023;
   color:#FFFFFF;
   text-align: center;
   padding: 80px;
@@ -50,8 +48,11 @@ nav {
   display: flex;
   justify-content: space-between;
   
-  
 }
+
+
+
+
 
 ul {
   display: flex;
@@ -69,17 +70,25 @@ ul.show {
 
 li {
   text-decoration: none;
+
+
   
 }
+
+
 
 h1 {
   font-size: 90px;
   margin: 0;
   color:#FFFFFF;
+  font-style: bold;
 }
 
 .fullstackdeveloper {
-  color: #a9cad9;
+  color: #94c4d4;
+  font-family: 'Rokkitt', serif;
+  font-size: 40px;
+  margin-left: 10px;
 }
 
 h2 {
@@ -90,12 +99,19 @@ h2 {
 p {
   margin: 0;
   font-size: 30px;
-  color: #a9cad9;
+  color: #FFFFFF;
 }
 
 .subtext {
     font-size: 15px;
     font-weight: 300;
+    
+}
+
+
+
+.aboutmetext {
+  color: #94c4d4;
 }
 
 .hero-area {
@@ -106,24 +122,34 @@ p {
 }
 
 .socials {
+  padding-top: 60px;
   padding-bottom: 200px;
+  padding-right: 50px;
+  
+  
+}
+
+.linkedin {
+  margin-bottom: 25px;
 }
 
 .hero-text {
   margin-left: 80px;
   margin-bottom: 200px;
+  
 }
 
 .button {
-  width: 200px;
-  height: 55px;
+  width: 175px;
+  height: 50px;
   /* background-color: #66A2BD; */
-  background: linear-gradient(0deg, hsla(15, 43%, 71%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+  background: linear-gradient(0deg, hsla(15, 43%, 71%, 1) 0%, rgb(255, 255, 255) 100%);
   border-radius: 30px;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   padding-top: 10px;
   margin-top: 20px;
+  
   /* border: solid 3px #0A1647; */
   
 }
@@ -152,10 +178,9 @@ p {
     display: flex;
     justify-content: space-around;
     padding: 30px;
-    background-color: #0A1647;
-    /*background-image: url(./images/pexels-felix-mittermeier-1146134.jpg);*/
-   /* border: groove 20px #BD66A2;*/
+    background-color: #362023;
     height: 100vh;
+    
 
 }
 
@@ -163,14 +188,12 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 5px;
+    padding: 5px; 
     height: 100vh;
     
 }
 
-.information {
 
-}
 
 .headshot-container {
     display: flex;
@@ -186,11 +209,16 @@ p {
 .project-card {
     width: 300px;
     height: 500px;
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 10px 10px 20px black;
     margin: 10px;
-    background-color: #156e94;
+    background: linear-gradient(42deg, rgba(11,55,43,1) 0%, rgba(20,90,71,1) 58%, rgba(27,115,91,1) 91%);
     /* border: ridge 5px #66A2BD; */
-    border-radius: 10px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 125px;
+    border-style: dotted;
+    border-color: white;
+    font-family: 'Ysabeau', sans-serif;
+    font-style: italic;
 }
 
 .project-container {
@@ -222,7 +250,7 @@ hr {
 
 .project-link {
     text-decoration: none;
-    color: #6aa5bf;
+    color: #94c4d4;
 }
 
 a {
@@ -247,7 +275,7 @@ a {
 
     ul {
         display: none;
-        background-color: ##0A1647;
+        background-color: #0A1647;
         margin: 0px;
         
     }
@@ -255,7 +283,7 @@ a {
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: ##0A1647;
+        background-color: #0A1647;
         padding-bottom: 20px;
         margin-bottom: 20px;
         
